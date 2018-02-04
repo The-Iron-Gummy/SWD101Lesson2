@@ -1,0 +1,47 @@
+-----------------------------------------------------------------------------------------//Lesson 2//
+----------------------------------------------------------------------------------//Main Hands-On Project//
+function addNumbers(add1)
+    {
+    num1 = add1;
+    num2 = 20
+    return num1 + num2;
+    
+}
+console.log(addNumbers(57));
+
+function multiplyNumbers(multiply1)
+    {
+    num1 = multiply1;
+    num2 = 20;
+    return num1 * num2;
+}
+console.log(multiplyNumbers(3.85));
+
+function divideNumbers(divide1)
+    {
+    num1 = divide1;
+    num2 = 20;
+    return num1 / num2;
+}
+console.log(divideNumbers(1540));
+-------------------------------------------------------------------------------------//Stretch Goal #1//
+const addNumbers1 = (num1, num2) => {return num1 + num2}
+console.log(addNumbers1(23, 54));
+
+const multiplyNumbers1 = (num1, num2) => {return num1 * num2}
+console.log(multiplyNumbers1(3.85, 20));
+
+const divideNumbers1 = (num1, num2) => {return num1 / num2}
+console.log(divideNumbers1(1540, 20));
+-------------------------------------------------------------------------------------//Stretch Goal #2//
+let newProduct = {
+    productName: "Walkie Talkie", productType: "Radio Communications", productNum: 388736,
+    getProductDetails: function () { return this.productName + ", " + this.productType + ", " + this.productNum }
+}
+console.log(newProduct.getProductDetails());
+
+let wishList = {
+    wListName: "Ham Radio", wListType: "Radio Communications", wListNum: 388954,
+    getWListDetails: function () { return this.wListName + ", " + this.wListType + ", " + this.wListNum }
+}
+console.log(wishList.getWListDetails());
